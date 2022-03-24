@@ -1,18 +1,22 @@
+
 import time
+
 import imageio
 import numpy as np
+import pandas as pd
 from tqdm import tqdm
+
 
 # Downloads 'size' images, starting from 'offset'
 offset = 0
 size = 10
 
 # Load in the coordinates
-catalog = np.loadtxt('objects_details.csv', delimiter=',', skiprows=1, usecols = (1,2))	
+catalog = pd.read_csv('objects_details.csv')	
 catalog = catalog[offset:offset + size]
 
-ra = catalog[:,0]
-dec = catalog[:,1]
+ra = catalog['ra'].values
+dec = catalog['dec'].values
 
 imageList = []
 coords = []
