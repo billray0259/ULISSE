@@ -1,5 +1,5 @@
 # ULISSE
-Code for "ULISSE: A Tool for One-shot Sky Exploration and its Application to Active Galactic Nuclei Detection". 
+Code for [ULISSE: A Tool for One-shot Sky Exploration and its Application to Active Galactic Nuclei Detection](https://arxiv.org/abs/2208.10984). 
 
 ![Objects activating pretrained features](figures/features.png "features")
 
@@ -16,3 +16,16 @@ Change line 15 in `get_data.py` to read in the desired csv file with a column ra
 Using the .npz file obtained from `get_data.py` (loaded in the `get_data` function), the `ULISSE.ipynb` notebook can be used to find nearest neighbours (the lookalikes) for any given query, after running the whole notebook, using the last cell.
 
 First, it obtains its image by passing its ra and dec coordinates to the `get_query` function. Then, it find the nearest neighbours with the `get_nns` function, and visualizes the result with the `plot` function .
+
+### Citation
+
+If you find this work helpful, consider citing it using
+
+```
+@article{doorenbos2022ulisse,
+  title={ULISSE: A Tool for One-shot Sky Exploration and its Application to Active Galactic Nuclei Detection},
+  author={Doorenbos, Lars and Torbaniuk, Olena and Cavuoti, Stefano and Paolillo, Maurizio and Longo, Giuseppe and Brescia, Massimo and Sznitman, Raphael and M{\'a}rquez-Neila, Pablo},
+  journal={arXiv preprint arXiv:2208.10984},
+  year={2022}
+}
+```
