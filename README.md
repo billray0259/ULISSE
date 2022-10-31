@@ -1,5 +1,5 @@
 # ULISSE
-Code for [ULISSE: A Tool for One-shot Sky Exploration and its Application to Active Galactic Nuclei Detection](https://arxiv.org/abs/2208.10984). 
+Code for [ULISSE: A Tool for One-shot Sky Exploration and its Application to Active Galactic Nuclei Detection](https://www.aanda.org/articles/aa/abs/2022/10/aa43900-22/aa43900-22.html). 
 
 ![Objects activating pretrained features](figures/features.png "features")
 
@@ -23,9 +23,12 @@ If you find this work helpful, consider citing it using
 
 ```
 @article{doorenbos2022ulisse,
-  title={ULISSE: A Tool for One-shot Sky Exploration and its Application to Active Galactic Nuclei Detection},
+  title={ulisse: A tool for one-shot sky exploration and its application for detection of active galactic nuclei},
   author={Doorenbos, Lars and Torbaniuk, Olena and Cavuoti, Stefano and Paolillo, Maurizio and Longo, Giuseppe and Brescia, Massimo and Sznitman, Raphael and M{\'a}rquez-Neila, Pablo},
-  journal={arXiv preprint arXiv:2208.10984},
-  year={2022}
+  journal={Astronomy \& Astrophysics},
+  volume={666},
+  pages={A171},
+  year={2022},
+  publisher={EDP Sciences}
 }
 ```
