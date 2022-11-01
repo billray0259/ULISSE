@@ -1,5 +1,5 @@
 # ULISSE
-Code for [ULISSE: A Tool for One-shot Sky Exploration and its Application to Active Galactic Nuclei Detection](https://www.aanda.org/articles/aa/abs/2022/10/aa43900-22/aa43900-22.html). 
+Code for [ULISSE: A tool for one-shot sky exploration and its application for detection of active galactic nuclei](https://www.aanda.org/articles/aa/abs/2022/10/aa43900-22/aa43900-22.html). 
 
 ![Objects activating pretrained features](figures/features.png "features")
 
