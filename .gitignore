@@ -1,3 +1,10 @@
+/galaxy_files
+object_info.csv
+/dev
+/data
+*.npz
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
